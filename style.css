@@ -1,0 +1,222 @@
+
+.navbar-brand {
+    font-weight: bold;
+    color: hsl(21, 100%, 50%);
+
+}
+  
+  .contact-info {
+    float: right;
+  }
+  
+  .contact-info .nav-link {
+    margin-right: 1rem;
+  }
+  
+  .contact-info i {
+    margin-right: 0.5rem;
+  }
+
+
+
+
+  .hero {
+    background-image: url('/about.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: #1d1c1c;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  
+
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+
+
+  .card {
+    margin: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .card-text {
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+
+.footer {
+    background-color: hsl(236, 66%, 52%);
+    color: hsl(0, 5%, 13%);
+    padding: 40px 0;
+  }
+  
+  .footer h3 {
+    margin-bottom: 20px;
+  }
+  
+  .footer ul {
+    list-style: none;
+  }
+  
+  .footer li {
+    margin-bottom: 10px;
+  }
+  
+  .footer a {
+    color: hsl(0, 2%, 11%);
+    text-decoration: none;
+  }
+  
+  .footer form {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .footer form input[type="email"] {
+    flex-grow: 1;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .footer form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #f00;
+    color: #151414;
+    border: none;
+  }
+
+
+
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-basis: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .service-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .service-description {
+    font-size: 0.9rem;
+    color: #666;
+  }
+
+
+
+  .card {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .card-subtitle {
+    font-size: 18px;
+  }
+  
+  .card-text {
+    font-size: 16px;
+  }
+  
+  .card-link {
+    font-size: 16px;
+  }
+
+
+
+  
